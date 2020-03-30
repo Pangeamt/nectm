@@ -87,7 +87,7 @@ USER root
 # Clone the conf files into the docker container
 RUN echo " Cloning----"
 RUN echo " ==== ...."
-RUN git clone --recursive https://github.com/shasha79/nectm $ELASTICTM
+RUN git clone --recursive https://github.com/Pangeamt/nectm $ELASTICTM
 WORKDIR $ELASTICTM
 RUN cd $ELASTICTM
 #################################################################
